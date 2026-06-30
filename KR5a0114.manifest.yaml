@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5a0114/v1
+canonical_location: https://kanripo.org/bkk/KR5a0114/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 黃帝陰符經解
+  identifiers:
+    alt_id:
+    - DZ0113
+  date: '2015-08-28 23:37:49.438523'
+  source:
+    repository: kanripo
+    path: KR5a0114
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0114_000.yaml, hash: 'sha256:49e1323202a593c5acf4eb1733d92b0f3771bf7539e92a018f61d5b67da05822'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0114_000.markers.yaml, hash: 'sha256:ac9fb094f73626fcd273d75ad5ac76cfc21127e65e04ab659010049647064d08'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0114_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 5713
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:835ee8970c8d1d9352584bca80e4b13f3ed06d28c18efd13e34cc1240483bfcc
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
